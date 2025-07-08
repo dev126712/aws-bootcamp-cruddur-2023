@@ -5,7 +5,7 @@ import os
 
 from services.home_activities import *
 from services.show_activity import *
-from services.notifications_activities import *
+from services.NotificationsActivities import *
 from services.create_activity import *
 from services.create_reply import *
 from services.search_activities import *
