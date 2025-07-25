@@ -12,6 +12,9 @@ COPY requirements.txt requirements.txt
 # This is done by pip3, the python package manager
 RUN pip3 install -r requirements.txt
 
+RUN pip install flask-cors
+
+
 # Outside container to inside container
 # This contains the source code of the app
 # . means everything current directory<
